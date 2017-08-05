@@ -12,9 +12,9 @@ def compare(x, y):
     for i in range(0, len(charX)):
         if charX[i] != charY[i]:
             differ += 1
-    print(charX)
-    print(charY)
-    print(differ)
+#     print(charX)
+#     print(charY)
+#     print(differ)
     return differ
 
 n, m, k = [int(x) for x in input().split()]
