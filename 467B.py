@@ -26,15 +26,3 @@ for i in range(0, m):
     if compare(numbers[i], numbers[m]) <= k:
         res += 1
 print(res)
-
-
-
-# import math
-# def isTPrime(x):
-#     if x < 4:
-#         return False
-#     else:
-#         divisor = 0
-#         bound = int(math.sqrt(x)) + 1
-#         for i in range(1, bound):
-
